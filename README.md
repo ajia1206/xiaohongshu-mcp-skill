@@ -120,7 +120,7 @@ cat ~/.claude/skills/xiaohongshu-mcp/SKILL.md | head -10
 
 | 变量名 | 说明 | 默认值 |
 |--------|------|--------|
-| `COOKIES_PATH` | Cookie 文件路径 | `cookies/cookies.json` |
+| `COOKIES_PATH` | Cookie 文件路径 | `cookies.json` |
 
 ### Claude Code 配置
 
@@ -160,7 +160,7 @@ curl http://localhost:18060/api/v1/login/status
 # 搜索用户
 curl -X POST http://localhost:18060/api/v1/feeds/search \
   -H "Content-Type: application/json" \
-  -d '{"keyword": "陆苍", "type": "user", "page": 1, "page_size": 10, "filters": []}'
+  -d '{"keyword": "陆苍", "filters": []}'
 ```
 
 ## 🔧 故障排除

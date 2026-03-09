@@ -119,10 +119,10 @@ vim ~/.config/Claude/settings.json
 {
   "mcpServers": {
     "xiaohongshu": {
-      "command": "/Users/getui/Desktop/repo/xhs-mcp/build/xiaohongshu-mcp/xiaohongshu-mcp",
+      "command": "/Users/getui/Desktop/repo/xhs-mcp/xiaohongshu-mcp",
       "args": ["--port", "18060", "--log-level", "info"],
       "env": {},
-      "cwd": "/Users/getui/Desktop/repo/xhs-mcp/build/xiaohongshu-mcp"
+      "cwd": "/Users/getui/Desktop/repo/xhs-mcp"
     }
   }
 }
